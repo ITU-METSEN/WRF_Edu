@@ -1,8 +1,8 @@
 &share
  wrf_core = 'ARW',
  max_dom = 1,
- start_date = '2026-01-11_00:00:00',
- end_date   = '2026-01-11_03:00:00',
+ start_date = '2026-01-17_00:00:00',
+ end_date   = '2026-01-18_00:00:00',
  interval_seconds = 3600
 /
 
@@ -14,15 +14,15 @@
  e_we              = 900,
  e_sn              = 800,
  geog_data_res     = 'default',
- dx                = 15000,
- dy                = 15000,
+ dx                = 3000,
+ dy                = 3000,
  map_proj          = 'lambert',
  ref_lat           = 37.5,
  ref_lon           = 34.0,
  truelat1          = 30.0,
  truelat2          = 60.0,
  stand_lon         = 34.0,
- geog_data_path    = '/data2/kocah/Build_WRF/WPS_GEOG',
+ geog_data_path    = '/home/wrfuser/WPS_GEOG',
 /
 
 &ungrib
